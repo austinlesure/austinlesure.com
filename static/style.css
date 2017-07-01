@@ -1,18 +1,43 @@
 
 @import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
+html {
+    position: relative;
+    min-height: 100%;
+}
 body {
 	font-family: 'Share Tech Mono', monospace;
 	background-color: #9a9a9a;
 	width: 95%;
 	margin: auto;
+	margin-bottom: 75px;
+}
+a, a:link, a:visited {
+	text-decoration: none;
+	color: whitesmoke;
+}
+a:hover, a:visited:hover {
+	color: #ffffff;
+	text-shadow: 2px 2px 1px #676767;
 }
 h1 {
+	color: whitesmoke;
+	text-shadow: 4px 4px #676767;
+	margin-bottom: 5px;
+	font-size: 3.5em;
 	text-align: center;
+}
+h2 {
+	font-size: 2em;
+}
+p {
+	text-align: justify;
+	font-size: 1.2em;
 }
 nav ul {
 	padding:5px;
 }
 nav ul li{
+	font-size: 1.5em;
 	text-align: center;
 	list-style: none;
 	border: 2px black solid;
@@ -20,36 +45,40 @@ nav ul li{
 }
 img {
 	width: 100%;
-	border-radius: 5em;
+	border-radius: 2.5em;
 }
-footer{
+footer p{
 	text-align: center;
 }
 @media (min-width: 600px) {
 	main {
 		margin: auto;
 		width: 95%;
-		max-width: 1200px;
+		max-width: 800px;
 	}
 	nav ul {
-	text-align: center;
-	padding:5px;
-}
+		text-align: center;
+		padding:5px;
+	}
 	nav ul li{
-	display: inline;
-	text-align: center;
-	list-style: none;
-	padding: 5px;
-	padding-left: 20px;
-	padding-right: 20px;
-}
+		display: inline;
+		text-align: center;
+		list-style: none;
+		padding: 5px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 	main img {
 		width: max-content;
 		float: left;
+		margin-right: 25px;
+		margin-bottom: 25px;
 	}
 	footer {
+		height: 75px;
+		position: absolute;
         width: inherit;
-        padding:5px;
-        bottom:5px;
+		overflow: hidden;
+        bottom: 0px;
 	}
 }
