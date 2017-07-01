@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>Austin LeSure: Freelancer</title>
+		<meta name="author" content="Austin J. O. LeSure" />
+		<meta name="description" content="[This Space Intentionally Left Blank]" />
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}" />
+  	<link rel="icon" href="{{ url_for('static', filename='images/favicon.ico') }}" />
+	</head>
+	<body>
+		<header>
+			<h1>Austin LeSure</h1>
+			<nav>
+				<ul>
+					<a href="/"><li>Main</li></a>
+					<a href="/contact"><li>Contact</li></a>
+					<a href="/bio"><li>Bio</li></a>
+					<a href="/skillset"><li>Skillset</li></a>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<h2>{{title}}</h2>
+            {% block content %}
+            {% endblock %}
+
+        </main>
+		<footer>
+			<p>&copy;2017 Austin J. O. LeSure</p>
+		</footer>
+	</body>
+</html>
