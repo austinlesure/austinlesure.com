@@ -14,7 +14,7 @@ def contact():
 
 @app.route('/bio', methods=['GET'])
 def bio():
-    return render_template('bio.html', title  = 'Bio')
+    return render_template('bio.html', title  = 'Biography')
 
 @app.route('/skillset', methods=['GET'])
 def skillset():
