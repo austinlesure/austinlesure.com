@@ -13,15 +13,14 @@ body {
 }
 a, a:link, a:visited {
 	text-decoration: none;
-	color: whitesmoke;
+	color: black;
 }
 a:hover, a:visited:hover {
-	color: #ffffff;
-	text-shadow: 2px 2px 1px #676767;
+	color: whitesmoke;
 }
 h1 {
 	color: whitesmoke;
-	text-shadow: 4px 4px #676767;
+	text-shadow: 6px 6px 3px #676767;
 	margin-bottom: 5px;
 	font-size: 3.5em;
 	text-align: center;
@@ -37,11 +36,16 @@ nav ul {
 	padding:5px;
 }
 nav ul li{
-	font-size: 1.5em;
+	font-size: 1.8em;
 	text-align: center;
 	list-style: none;
 	border: 2px black solid;
+	border-radius: 0.5em;
 	background-color: #bcbcbc;
+	box-shadow: 3px 3px 2px #676767;
+}
+nav ul li.current {
+	color: whitesmoke;
 }
 img {
 	width: 100%;
@@ -72,7 +76,7 @@ footer p{
 		width: max-content;
 		float: left;
 		margin-right: 25px;
-		margin-bottom: 25px;
+		margin-bottom: 5px;
 	}
 	footer {
 		height: 75px;
