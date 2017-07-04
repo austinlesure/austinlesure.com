@@ -13,10 +13,10 @@ body {
 }
 a, a:link, a:visited {
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 a:hover, a:visited:hover {
-	color: whitesmoke;
+	text-decoration: underline;
 }
 h1 {
 	color: whitesmoke;
@@ -54,11 +54,10 @@ img {
 footer p{
 	text-align: center;
 }
-@media (min-width: 600px) {
+@media (min-width: 800px) {
 	main {
 		margin: auto;
 		width: 95%;
-		max-width: 800px;
 	}
 	nav ul {
 		text-align: center;
