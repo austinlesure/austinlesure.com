@@ -76,7 +76,9 @@ div.box ul {
 	padding-left: 0px;
 	list-style: none;
 }
-
+ul.contact {
+	font-size: 150%;
+}
 p.center {
 	text-align: center;
 }
