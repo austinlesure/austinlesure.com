@@ -40,11 +40,15 @@ p {
 nav ul {
 	padding:5px;
 }
-nav ul li{
+nav ul li {
+	margin: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
 	font-size: 1.8em;
 	text-align: center;
 	list-style: none;
-	border: 2px black solid;
+	border: 5px black solid;
 	border-radius: 0.5em;
 	background-color: #bcbcbc;
 	box-shadow: 3px 3px 2px #676767;
@@ -53,8 +57,13 @@ nav ul li.current {
 	color: whitesmoke;
 }
 img {
-	width: 100%;
+	display: block;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 	border-radius: 2.5em;
+	border: 5px black solid;
+	box-shadow: 3px 3px 2px #676767;
 }
 footer p{
 	font-size: 1em;
@@ -64,8 +73,9 @@ div.box {
 	margin: auto;
 	margin-bottom: 30px;
 	background-color: #ababab;
-	border: 2px black solid;
+	border: 5px black solid;
 	box-shadow: 3px 3px 2px #676767;
+	width: 90%;
 	max-width: 400px;
 	text-align: center;
 }
@@ -105,6 +115,7 @@ p.center {
 		padding: 5px;
 		padding-left: 20px;
 		padding-right: 20px;
+		margin: 5px;
 	}
 	main img {
 		width: max-content;
