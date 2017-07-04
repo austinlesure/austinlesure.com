@@ -1,11 +1,12 @@
 
-@import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech');
 html {
     position: relative;
     min-height: 100%;
 }
 body {
-	font-family: 'Share Tech Mono', monospace;
+	font-family: 'Share Tech', sans-serif;
 	background-color: #9a9a9a;
 	width: 95%;
 	margin: auto;
@@ -22,11 +23,15 @@ h1 {
 	color: whitesmoke;
 	text-shadow: 6px 6px 3px #676767;
 	margin-bottom: 5px;
-	font-size: 3.5em;
+	font-size: 3em;
 	text-align: center;
 }
 h2 {
+	text-align: center;
 	font-size: 2em;
+}
+h3 {
+	font-size: 1.5em;
 }
 p {
 	text-align: justify;
@@ -52,12 +57,40 @@ img {
 	border-radius: 2.5em;
 }
 footer p{
+	font-size: 1em;
+	text-align: center;
+}
+div.box {
+	margin: auto;
+	margin-bottom: 30px;
+	background-color: #ababab;
+	border: 2px black solid;
+	box-shadow: 3px 3px 2px #676767;
+	max-width: 400px;
+	text-align: center;
+}
+div.box h3 {
+	text-align: center;
+}
+div.box ul {
+	padding-left: 0px;
+	list-style: none;
+}
+
+p.center {
 	text-align: center;
 }
 @media (min-width: 600px) {
 	main {
 		margin: auto;
 		width: 95%;
+		max-width: 1200px;
+	}
+	h1 {
+		font-size: 4em;
+	}
+	h2 {
+		font-size: 2.5em;
 	}
 	nav ul {
 		text-align: center;
@@ -73,6 +106,7 @@ footer p{
 	}
 	main img {
 		width: max-content;
+		max-width: 50%;
 		float: left;
 		margin-right: 25px;
 		margin-bottom: 5px;
