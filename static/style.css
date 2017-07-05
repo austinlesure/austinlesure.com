@@ -86,6 +86,16 @@ div.box ul {
 	padding-left: 0px;
 	list-style: none;
 }
+div.box ul {
+	font-size: 125%
+}
+div.box ul ul {
+	font-style: italic;
+	width: max-content;
+	margin: auto;
+	font-size: 75%;
+	color: #454545;
+}
 ul.contact {
 	font-size: 150%;
 }
